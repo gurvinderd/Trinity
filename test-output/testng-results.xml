@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19574" started-at="2014-04-30T04:06:27Z" finished-at="2014-04-30T04:06:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19574" started-at="2014-04-30T04:06:27Z" finished-at="2014-04-30T04:06:46Z">
+      <class name="com.trinity.test.WebDriverTest">
+        <test-method status="PASS" signature="setEnv(java.lang.String)[pri:0, instance:com.trinity.test.WebDriverTest@34c748]" name="setEnv" is-config="true" duration-ms="10" started-at="2014-04-30T09:36:27Z" finished-at="2014-04-30T09:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/mercuryregister.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setEnv -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.trinity.test.WebDriverTest@34c748]" name="launchBrowser" is-config="true" duration-ms="8842" started-at="2014-04-30T09:36:27Z" finished-at="2014-04-30T09:36:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="FAIL" signature="newRegistration()[pri:0, instance:com.trinity.test.WebDriverTest@34c748]" name="newRegistration" duration-ms="10" started-at="2014-04-30T09:36:36Z" finished-at="2014-04-30T09:36:36Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at java.util.Hashtable.hash(Unknown Source)
+	at java.util.Hashtable.get(Unknown Source)
+	at java.util.Properties.getProperty(Unknown Source)
+	at com.trinity.dataobject.RegistrationData.<init>(RegistrationData.java:24)
+	at com.trinity.test.WebDriverTest.newRegistration(WebDriverTest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newRegistration -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.trinity.test.WebDriverTest@34c748]" name="closeBrowser" is-config="true" duration-ms="190" started-at="2014-04-30T09:36:36Z" finished-at="2014-04-30T09:36:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.trinity.test.WebDriverTest@34c748]" name="launchBrowser" is-config="true" duration-ms="6442" started-at="2014-04-30T09:36:36Z" finished-at="2014-04-30T09:36:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="softAssertion()[pri:0, instance:com.trinity.test.WebDriverTest@34c748]" name="softAssertion" duration-ms="3320" started-at="2014-04-30T09:36:42Z" finished-at="2014-04-30T09:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- softAssertion -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.trinity.test.WebDriverTest@34c748]" name="closeBrowser" is-config="true" duration-ms="750" started-at="2014-04-30T09:36:46Z" finished-at="2014-04-30T09:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.trinity.test.WebDriverTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
